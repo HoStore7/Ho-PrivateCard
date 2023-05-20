@@ -1,0 +1,70 @@
+body {
+    overflow: hidden;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+
+}
+
+#images_Cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    width: 460px;
+    height: 273px;
+    margin-left: 1325px;
+    margin-top: 277px;
+}
+
+.image-container {
+    position: absolute;
+}
+
+.image-container img {
+    object-fit: cover;
+    position: absolute;
+}
+
+.Text_C {
+    position: absolute;
+    z-index: 99;
+    right: 1px;
+    top: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.Text1 {
+    color: #ffffff;
+    font-family: "Tajawal", sans-serif;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: right;
+    unicode-bidi: bidi-override;
+    margin-right: 1px;
+}
+
+.Text2 {
+    color: #ffffff;
+    font-family: "Tajawal", sans-serif;
+    white-space: nowrap;
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: bidi-override;
+    margin-right: 1px;
+}
+
+.Text3 {
+    color: #ffffff;
+    font-family: "Tajawal", sans-serif;
+    white-space: nowrap;
+    direction: ltr;
+    text-align: right;
+    unicode-bidi: bidi-override;
+    margin-right: 1px;
+}
